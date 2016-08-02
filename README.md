@@ -18,4 +18,16 @@ Check [demo video](https://drive.google.com/file/d/0B4z8qjK8O_uUc0o2RjZWYktiMTg/
 
 + after all model paths and jni libraries and android app set up correctly, `cd server; python serv.py` and use the android app as demo shows
 
+#### Models
+
++ scene classification
+    + grouping, augmentation
+    + finetune
+    + merging parameters to a single model
+
++ gesture recognition
+    + data preparation, augmentation
+    + train gesture recognizer end to end
+
++ face recognition: [A Lightened CNN for Deep Face Representation](http://arxiv.org/abs/1511.02683)
 
