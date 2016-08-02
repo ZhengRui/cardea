@@ -9,7 +9,7 @@ Check [demo video](https://drive.google.com/file/d/0B4z8qjK8O_uUc0o2RjZWYktiMTg/
 #### Setup
 
 + server:
-    + modify path in `server/_init_paths.py` to be the correct path of `[py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)`
+    + modify path in `server/_init_paths.py` to be the correct path of [`py-faster-rcnn`](https://github.com/rbgirshick/py-faster-rcnn)
     + modify path in `server/serv.py` in each worker to be the correct path of model used by this worker
 
 + jni libraries:
