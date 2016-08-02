@@ -1,3 +1,7 @@
 [submodule "server"]
     path = server
     url = https://github.com/ZhengRui/cardea-server.git
+
+[submodule "cardea-app"]
+    path = androidapp/cardea-app
+    url = https://github.com/ZhengRui/cardea-app.git
