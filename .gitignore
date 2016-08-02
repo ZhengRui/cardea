@@ -1,0 +1,7 @@
+tmp
+design/*
+modelzoo/*
+
+!design/dataflow.jpg
+!modelzoo/README.md
+
