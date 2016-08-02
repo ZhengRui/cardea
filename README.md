@@ -4,6 +4,6 @@ Check [demo video](https://drive.google.com/file/d/0B4z8qjK8O_uUc0o2RjZWYktiMTg/
 
 Dataflow
 
-<img src="./design/dataflow.jpg" width="200">
+<img src="./design/dataflow.jpg" width="400">
 
 
