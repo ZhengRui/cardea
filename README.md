@@ -2,6 +2,7 @@ Cardea is a system in which user can set his/her privacy preference based on con
 
 Check [demo video](https://drive.google.com/file/d/0B4z8qjK8O_uUc0o2RjZWYktiMTg/view) for the usage of the system.
 
-System design and dataflow
+Dataflow
+<img src="./design/dataflow.jpg" width="48">
 
 
