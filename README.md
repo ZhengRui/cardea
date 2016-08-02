@@ -2,8 +2,20 @@ Cardea is a system in which user can set his/her privacy preference based on con
 
 Check [demo video](https://drive.google.com/file/d/0B4z8qjK8O_uUc0o2RjZWYktiMTg/view) for the usage of the system.
 
-Dataflow
+#### Dataflow
 
 <img src="./design/dataflow.jpg" width="400">
+
+#### Setup
+
++ server:
+    + modify path in `server/_init_paths.py` to be the correct path of `py-faster-rcnn`
+    + modify path in `server/serv.py` in each worker to be the correct path of model used by this worker
+
++ jni libraries:
+    + modify paths in `androidapp/jnisrc/fdlib/build.sh` and build it by `./build.sh`
+    + build `androidapp/jnisrc/caffe`
+
++ after all model paths and jni libraries and android app set up correctly, `cd server; python serv.py` and use the android app as demo shows
 
 
